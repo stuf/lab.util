@@ -1,0 +1,25 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["last 2 versions"],
+        "node": true,
+        "debug": true
+      },
+      "modules": false
+    }]
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        ["env", {
+          "targets": {
+            "browsers": ["last 2 versions"],
+            "node": true,
+            "debug": true
+          }
+        }]
+      ]
+    }
+  }
+}
